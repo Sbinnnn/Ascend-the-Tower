@@ -1493,7 +1493,7 @@ function bossroom4() {
   
   // Right floor
   floorR = new Sprite();
-  floorR.image = "stone4.png"
+  floorR.image = "stone4.5.png"
   floorR.y = 300;
   floorR.x = 310;  
   floorR.w = 39;
@@ -1504,7 +1504,7 @@ function bossroom4() {
   
   // Left floor
   floorL = new Sprite();
-  floorL.image = "stone4.png";
+  floorL.image = "stone4.5.png";
   floorL.y = 290;
   floorL.x = 50; 
   floorL.w = 40;
