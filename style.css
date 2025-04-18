@@ -1,21 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: black;
+  background-image: url("thunderstorm.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "ZCOOL XiaoWei", serif;
+  width: 100%;
+  min-height: 100vh;
+}
+
 .fakeimg {
   height: 200px;
-  background-image: url('dhd746e-4c39e9ee-423c-4d5c-a130-0deea9a8ed49.png');
+  background-image: url("dhd746e-4c39e9ee-423c-4d5c-a130-0deea9a8ed49.png");
   background-position: center;
   background-size: auto 200px;
 }
 
-body {
-  margin: auto;
-  padding: 0;
-  color: white; /* Added some CSS to make my text white */
-  background-color: black; /* CSS to make the bg black*/
-  font-family: "ZCOOL XiaoWei", serif;
-  width: 100%;
-}
-
 canvas {
-  margin: auto; 
+  margin: auto;
   display: block;
 }
 
@@ -28,7 +34,10 @@ p {
 }
 
 .custom-muted {
-  color: #a2a2a2; /* 회색 */
+  color: #a2a2a2;
 }
 
-
+#portrait {
+  position: relative;
+  margin-top: 50px;
+}
